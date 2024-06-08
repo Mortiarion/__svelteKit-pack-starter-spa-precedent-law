@@ -1,0 +1,57 @@
+<script lang="ts">
+	import Section from '$lib/base-components/Section.svelte';
+	import Container from '$lib/base-components/Container.svelte';
+	import Heading from '$lib/base-components/Heading.svelte';
+	import Paragraph from '$lib/base-components/Paragraph.svelte';
+	import Text from '$lib/base-components/Text.svelte';
+	import Image from '$lib/base-components/Image.svelte';
+</script>
+
+<Section>
+	<Container classes="bg-gradient_about_as pt-20 pb-8 2xl:px-20 2xl:pb-10">
+		<div class='xl:flex xl:flex-col xl:gap-10 2xl:gap-28 2xl:flex-row'>
+			<div class="2xl:w-[60%]">
+				<Heading level="h1" classes="text-6xl text-center mb-10 font-semibold">Про нас</Heading>
+				<div class="flex flex-col gap-5 text-lg">
+					<Paragraph>
+						Наше адвокатське об'єднання <Text classes="font-semibold">"Прецедент права"</Text> існує
+						вже понад 8 років, і за цей час ми зарекомендували себе як надійних і компетентних правозахисників.
+						Ми пишаємося численними успішними справами та високим рівнем довіри наших клієнтів. Професіоналізм:
+						Наша команда складається з висококваліфікованих адвокатів та юристів, кожен з яких має значний
+						досвід у своїй спеціалізації. Ми забезпечуємо індивідуальний підхід до кожної справи, уважно
+						вивчаючи всі деталі і розробляючи стратегії, що максимально захищають інтереси наших клієнтів.
+					</Paragraph>
+					<Paragraph>
+						<Text classes="font-semibold">Досвід:</Text>
+						За понад 8 років роботи адвокатське об'єднання "Прецедент права" успішно вирішило безліч
+						юридичних питань різної складності. Наші адвокати мають багатий досвід у кримінальному, господарському,
+						цивільному, корпоративному та адміністративному праві. Останнім часом наша команда активно
+						спеціалізується на військовому праві, що дозволяє нам ефективно вирішувати правові питання,
+						пов'язані з військовою сферою. Кожна справа, яку ми ведемо, отримує належну увагу та професійний
+						підхід.
+					</Paragraph>
+					<Paragraph>
+						<Text classes="font-semibold">Репутація:</Text>
+						Адвокатське об'єднання "Прецедент права" славиться високим рівнем успіху в судових процесах.
+						Ми домоглися значної кількості виправдовувальних вироків та виграшів у складних судових спорах.
+						Наша репутація базується на чесності, порядності та відданості справі.
+					</Paragraph>
+					<Paragraph>
+						<Text classes="font-semibold">Чому обрати нас:</Text>
+						Ми розуміємо, що кожна справа унікальна і вимагає особливого підходу. Наша команда не тільки
+						забезпечує високий рівень правової допомоги, але й створює дружню та підтримуючу атмосферу
+						для наших клієнтів. Ви можете бути впевнені, що з адвокатським об'єднанням "Прецедент права"
+						ваші правові питання будуть вирішені на найвищому рівні.
+					</Paragraph>
+					<Paragraph
+						>Адвокатське об'єднання "Прецедент права" – це ваша надійна правова підтримка у
+						будь-якій ситуації.
+					</Paragraph>
+				</div>
+			</div>
+			<div class="hidden xl:flex xl:m-auto xl:mb-32 2xl:w-[40%] 2xl:m-0">
+				<Image classes='max-w-[544px] max-h-[762px]' src={'/img/about-as.jpg'} alt={'about-as-img'} />
+			</div>
+		</div>
+	</Container>
+</Section>
