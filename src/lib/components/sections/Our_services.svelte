@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Section from '$lib/base-components/Section.svelte';
 	import Container from '$lib/base-components/Container.svelte';
-	import Paragraph from '$lib/base-components/Paragraph.svelte';
+	import Fade_In_Out from '$lib/components/Fade_In_Out.svelte';
 
 	// Масив категорій
 	const categories: string[] = [
@@ -140,28 +140,32 @@
 	<Container>
 		<div>
 			<!-- Кнопки фільтра -->
-			<div class="filter-buttons">
-				{#each categories as category}
-					<button
-						class={`filter-button ${category === activeCategory ? 'active' : ''}`}
-						on:click={() => setActiveCategory(category)}
-					>
-						{category}
-					</button>
-				{/each}
-			</div>
+			<Fade_In_Out duration={1000} threshold={0.2}>
+				<div class="filter-buttons">
+					{#each categories as category}
+						<button
+							class={`filter-button ${category === activeCategory ? 'active' : ''}`}
+							on:click={() => setActiveCategory(category)}
+						>
+							{category}
+						</button>
+					{/each}
+				</div>
+			</Fade_In_Out>
 
 			<!-- Відповідний список -->
-			<ul class="filter-list flex flex-col gap-10">
-				{#each subCategory ? data[subCategory] : data[activeCategory] as item}
-					<li class="filter-list-item p-5">
-						{item}
-						<button class="rounded bg-location_color px-5 py-2.5 text-xl text-white"
-							>Отримати консультацію</button
-						>
-					</li>
-				{/each}
-			</ul>
+			<Fade_In_Out duration={1000} threshold={0.2}>
+				<ul class="filter-list flex flex-col gap-10">
+					{#each subCategory ? data[subCategory] : data[activeCategory] as item}
+						<li class="filter-list-item p-5">
+							{item}
+							<button class="rounded bg-location_color px-5 py-2.5 text-xl text-white"
+								>Отримати консультацію</button
+							>
+						</li>
+					{/each}
+				</ul>
+			</Fade_In_Out>
 		</div>
 	</Container>
 </Section>
@@ -205,7 +209,6 @@
 	}
 
 	.filter-list-item {
-		
 		/* background-color: #ffffff; */
 		box-shadow:
 			28px 15px 13px rgba(138, 133, 133, 0.01),

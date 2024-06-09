@@ -18,7 +18,8 @@ export default {
 			footer_bg_img: "url('/img/footer-bg-img.jpg')"
 		},
 		fontFamily: {
-			// roboto: ['Roboto Serif', 'serif']
+			roboto: ['Roboto Serif', 'serif'],
+			source: ['Source Serif 4', 'serif']
 		},
 		screens: {
 			bs: '320px',
