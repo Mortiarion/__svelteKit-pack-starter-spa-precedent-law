@@ -36,7 +36,7 @@
 <Section>
 	<Container classes="2xl:px-16">
 		<div class="pb-10 pt-20 text-black">
-			<Heading level="h2" classes="text-3xl font-semibold text-center mb-10 2xl:text-6xl"
+			<Heading level="h2" classes="font-source text-3xl font-semibold text-center mb-10 2xl:text-6xl"
 				>Наша команда</Heading
 			>
 			<Line classes="bg-grey mb-10" />
@@ -51,7 +51,7 @@
 					</div>
 					<div class="flex flex-col gap-8">
 						<div class="flex flex-col items-center 2xl:items-start">
-							<Heading level="h4" classes="text-xl font-semibold 2xl:text-3xl">Діана Лісіна</Heading
+							<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl">Діана Лісіна</Heading
 							>
 							<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
 						</div>
@@ -106,6 +106,7 @@
 					</div>
 				</div>
 			</Fade_In_Out>
+
 			<Fade_In_Out duration={1000} threshold={0.2}>
 				<div>
 					<Line classes="bg-grey mb-10" />
@@ -119,7 +120,7 @@
 						</div>
 						<div class="flex flex-col gap-8">
 							<div class="flex flex-col items-center 2xl:items-start">
-								<Heading level="h4" classes="text-xl font-semibold 2xl:text-3xl"
+								<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
 									>Віктор Бардук</Heading
 								>
 								<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
@@ -191,7 +192,7 @@
 						</div>
 						<div class="flex flex-col gap-8">
 							<div class="flex flex-col items-center 2xl:items-start">
-								<Heading level="h4" classes="text-xl font-semibold 2xl:text-3xl"
+								<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
 									>Дмитро Попроцький</Heading
 								>
 								<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
@@ -257,7 +258,7 @@
 						</div>
 						<div class="flex flex-col gap-8">
 							<div class="flex flex-col items-center 2xl:items-start">
-								<Heading level="h4" classes="text-xl font-semibold 2xl:text-3xl"
+								<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
 									>Олена Васильєва</Heading
 								>
 								<Text classes="text-location_color 2xl:text-xl">Помічник адвоката</Text>
@@ -332,7 +333,7 @@
 						</div>
 						<div class="flex flex-col gap-8">
 							<div class="flex flex-col items-center 2xl:items-start">
-								<Heading level="h4" classes="text-xl font-semibold 2xl:text-3xl"
+								<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
 									>Лілія Братим</Heading
 								>
 								<Text classes="text-location_color 2xl:text-xl">Старший консультант</Text>
@@ -416,7 +417,7 @@
 						</div>
 						<div class="flex flex-col gap-8">
 							<div class="flex flex-col items-center 2xl:items-start">
-								<Heading level="h4" classes="text-xl font-semibold 2xl:text-3xl"
+								<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
 									>Младен Бардук</Heading
 								>
 								<Text classes="text-location_color 2xl:text-xl"

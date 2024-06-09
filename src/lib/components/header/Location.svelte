@@ -12,5 +12,7 @@
 		<Image src={'/img/location.png'} alt={'location-img'} />
 		<Text classes="text-base text-location_color">знаходження</Text>
 	</div>
-	<Paragraph classes="ml-[22px] text-white text-2xl font-semibold 2xl:text-3xl">м.Одеса вул.Канатна, 68</Paragraph>
+	<Paragraph classes="ml-[22px] text-white text-2xl font-semibold 2xl:text-3xl font-source"
+		>м.Одеса вул.Канатна, 68</Paragraph
+	>
 </div>

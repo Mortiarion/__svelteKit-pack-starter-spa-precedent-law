@@ -12,7 +12,7 @@
 	<Container classes="bg-gradient_about_as pt-20 pb-8 2xl:px-20 2xl:pb-10">
 		<div class="xl:flex xl:flex-col xl:gap-10 2xl:flex-row 2xl:gap-28">
 			<div class="2xl:w-[60%]">
-				<Heading level="h1" classes="text-6xl text-center mb-10 font-semibold">Про нас</Heading>
+				<Heading level="h1" classes="text-6xl text-center mb-10 font-semibold font-source">Про нас</Heading>
 				<div class="flex flex-col gap-5 text-lg">
 					<Fade_In_Out duration={1000} threshold={0.2}>
 						<Paragraph>

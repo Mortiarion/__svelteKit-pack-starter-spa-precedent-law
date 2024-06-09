@@ -7,7 +7,7 @@
 	import Fade_In_Out from '$lib/components/Fade_In_Out.svelte';
 </script>
 
-<div class="font-roboto">
+<div>
 	<Header />
 	<main>
 		<About_Us />

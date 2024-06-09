@@ -140,7 +140,7 @@
 	<Container>
 		<div>
 			<!-- Кнопки фільтра -->
-			<Fade_In_Out duration={1000} threshold={0.2}>
+			<!-- <Fade_In_Out duration={1000} threshold={0.2}> -->
 				<div class="filter-buttons">
 					{#each categories as category}
 						<button
@@ -151,10 +151,10 @@
 						</button>
 					{/each}
 				</div>
-			</Fade_In_Out>
+			<!-- </Fade_In_Out> -->
 
 			<!-- Відповідний список -->
-			<Fade_In_Out duration={1000} threshold={0.2}>
+			<!-- <Fade_In_Out duration={1000} threshold={0.2}> -->
 				<ul class="filter-list flex flex-col gap-10">
 					{#each subCategory ? data[subCategory] : data[activeCategory] as item}
 						<li class="filter-list-item p-5">
@@ -165,7 +165,7 @@
 						</li>
 					{/each}
 				</ul>
-			</Fade_In_Out>
+			<!-- </Fade_In_Out> -->
 		</div>
 	</Container>
 </Section>
