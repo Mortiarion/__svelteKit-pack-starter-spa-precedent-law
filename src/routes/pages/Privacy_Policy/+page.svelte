@@ -1,10 +1,8 @@
 <script lang="ts">
 	import Section from '$lib/base-components/Section.svelte';
 	import Container from '$lib/base-components/Container.svelte';
-	import Text from '$lib/base-components/Text.svelte';
 	import Paragraph from '$lib/base-components/Paragraph.svelte';
 	import Heading from '$lib/base-components/Heading.svelte';
-	import List from '$lib/base-components/List.svelte';
 </script>
 
 <Section classes="font-roboto">

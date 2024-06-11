@@ -82,7 +82,6 @@
 		]
 	};
 
-	// Масив даних для кожної категорії
 	const data: Record<string, string[]> = {
 		Все: [
 			'Розірвання шлюбу',
@@ -215,7 +214,7 @@
 	}
 </script>
 
-<Section id='our_serveces_mobile' classes="lg:hidden">
+<Section id='our_services_mobile' classes="xl:hidden">
 	<Container classes="font-source font-semibold">
 		<Heading level="h4" classes="text-3xl text-center mb-10">Наші послуги</Heading>
 		<Button
@@ -268,9 +267,9 @@
 
 		<ul class="filter-list flex flex-col gap-5">
 			{#each subCategory ? data[subCategory] : data[activeCategory] as item}
-				<li class=" text-center">
+				<li class="text-center font-roboto font-normal">
 					{item}
-					<button class="rounded bg-location_color px-5 py-2.5 text-sm text-white"
+					<button class="rounded bg-location_color px-5 py-2.5 text-sm text-white font-source"
 						>Отримати консультацію</button
 					>
 				</li>

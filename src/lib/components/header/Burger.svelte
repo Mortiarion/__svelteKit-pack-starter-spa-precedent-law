@@ -3,9 +3,9 @@
 	import { cn } from '$lib/utils/cn';
 	export let classes: string = '';
 	export let items = [
-		{ href: '/', text: 'Про нас' },
-		{ href: '/', text: 'Наші спеціалісти' },
-		{ href: '/', text: 'Послуги' }
+		{ href: '#about_us', text: 'Про нас' },
+		{ href: '#our_team', text: 'Наші спеціалісти' },
+		{ id: 'our_services_mobile_link', href: '#our_services_mobile', text: 'Послуги' }
 	];
 	let isOpen = false;
 
@@ -16,6 +16,10 @@
 		if (event.target instanceof Element && !event.target.closest('.burger')) {
 			isOpen = false;
 		}
+	}
+
+	function closeBurger() {
+		isOpen = false;
 	}
 
 	onMount(() => {
@@ -35,9 +39,9 @@
 	</button>
 
 	{#if isOpen}
-		<ul class="mb-8 flex flex-col gap-3 text-xl text-white ">
+		<ul class="mb-8 flex flex-col gap-3 text-xl text-white">
 			{#each items as item}
-				<li><a href={item.href}>{item.text}</a></li>
+				<li><a on:click={closeBurger} id={item.id} href={item.href}>{item.text}</a></li>
 			{/each}
 		</ul>
 	{/if}

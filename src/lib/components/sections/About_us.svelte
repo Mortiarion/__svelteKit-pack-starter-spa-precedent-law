@@ -63,7 +63,7 @@
 				</div>
 			</div>
 			<Fade_In_Out duration={1000} threshold={0.2}>
-				<div class="hidden xl:mb-32 xl:flex 2xl:m-0 2xl:w-[40%]">
+				<div class="hidden xl:mb-32 xl:flex 2xl:m-0 2xl:w-[40%] xl:justify-center">
 					<Image
 						classes="max-w-[544px] max-h-[762px]"
 						src={'/img/about-as.jpg'}

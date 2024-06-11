@@ -134,7 +134,7 @@
 	}
 </script>
 
-<Section id='our_services_desktop' classes="hidden lg:block">
+<Section id="our_services_desktop" classes="hidden xl:block">
 	<Container>
 		<div>
 			<Fade_In_Out duration={1000} threshold={0.2}>
@@ -172,7 +172,6 @@
 		gap: 0.5rem;
 		margin-bottom: 1rem;
 	}
-
 	.filter-button {
 		padding: 0.5rem 1rem;
 		font-size: 20px;
@@ -184,17 +183,16 @@
 	.filter-button:hover {
 		background-color: #cab18a;
 	}
-
 	.filter-button.active {
 		background-color: #e4e4e4;
 		color: #292424;
 		pointer-events: none;
 	}
-
 	.filter-list-item {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 10px;
 		box-shadow:
 			28px 15px 13px rgba(138, 133, 133, 0.01),
 			16px 8px 11px rgba(138, 133, 133, 0.05),

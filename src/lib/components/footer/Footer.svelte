@@ -14,6 +14,6 @@
 			<Logo classes="justify-center flex mb-12 lg:hidden" />
 			<Footer_Logo classes="bs:hidden lg:flex lg:justify-center lg:mb-12" />
 		</div>
-		<Link classes="text-white" href={'/pages/Privacy_Policy'}>Політика конфіденційності</Link>
+		<Link classes="text-white text-sm" href={'/pages/Privacy_Policy'}>Політика конфіденційності</Link>
 	</Container>
 </Section>
