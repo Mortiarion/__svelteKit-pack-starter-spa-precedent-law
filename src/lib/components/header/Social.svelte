@@ -5,7 +5,7 @@
 
 <ul class={cn('', classes)}>
 	<li>
-		<a href="/">
+		<a href="viber://chat?number=%2B380730343344">
 			<svg
 				width="32"
 				height="32"
@@ -107,7 +107,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="/">
+		<a href="https://t.me/+380730343344">
 			<svg
 				width="31"
 				height="32"

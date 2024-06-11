@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 
-	export let duration = 500; // Тривалість анімації в мілісекундах
-	export let threshold = 0.1; // Відсоток видимості елемента перед анімацією
+	export let duration = 500;
+	export let threshold = 0.1;
 
 	let element: HTMLElement;
 	const opacity = tweened(0, {
@@ -48,8 +48,8 @@
 			opacity 0.5s ease-out,
 			transform 0.5s ease-out;
 	}
-	.fade-section.visible {
+	/* .fade-section.visible {
 		opacity: 1;
 		transform: translateY(0);
-	}
+	} */
 </style>

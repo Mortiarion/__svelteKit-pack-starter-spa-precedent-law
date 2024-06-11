@@ -33,9 +33,9 @@
 	});
 </script>
 
-<Section>
+<Section id='our_team'>
 	<Container classes="2xl:px-16">
-		<div class="pb-10 pt-20 text-black">
+		<div class="pt-20 text-black">
 			<Heading level="h2" classes="font-source text-3xl font-semibold text-center mb-10 2xl:text-6xl"
 				>Наша команда</Heading
 			>

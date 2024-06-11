@@ -8,7 +8,7 @@
 	import Fade_In_Out from '$lib/components/Fade_In_Out.svelte';
 </script>
 
-<Section>
+<Section id='about_us'>
 	<Container classes="bg-gradient_about_as pt-20 pb-8 2xl:px-20 2xl:pb-10">
 		<div class="xl:flex xl:flex-col xl:gap-10 2xl:flex-row 2xl:gap-28">
 			<div class="2xl:w-[60%]">
@@ -63,7 +63,7 @@
 				</div>
 			</div>
 			<Fade_In_Out duration={1000} threshold={0.2}>
-				<div class="hidden xl:m-auto xl:mb-32 xl:flex 2xl:m-0 2xl:w-[40%]">
+				<div class="hidden xl:mb-32 xl:flex 2xl:m-0 2xl:w-[40%]">
 					<Image
 						classes="max-w-[544px] max-h-[762px]"
 						src={'/img/about-as.jpg'}

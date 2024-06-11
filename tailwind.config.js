@@ -13,12 +13,13 @@ export default {
 			border: '#DFDFDF'
 		},
 		backgroundImage: {
+			header_img_xl: "url('/img/header-2xl.jpg')",
 			header_img: "url('/img/header-bg.jpg')",
 			gradient_about_as: 'linear-gradient(360deg, #EEE7DA 4.75%, rgba(255, 255, 255, 0.1) 100%);',
-			footer_bg_img: "url('/img/footer-bg-img.jpg')"
+			footer_bg_img: "url('/img/footer-bg-img.jpg')",
+			none: 'none'
 		},
 		fontFamily: {
-			// roboto: ['"Roboto Serif"', 'serif'],
 			roboto: ["'Roboto'", 'sans-serif'],
 			source: ["'Source Serif 4'", 'serif']
 		},
