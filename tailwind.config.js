@@ -10,7 +10,8 @@ export default {
 			pepel: '#7E7E7E',
 			black: '#292424',
 			disabled: '#E4E4E4',
-			border: '#DFDFDF'
+			border: '#DFDFDF',
+			popap: 'rgba(73, 51, 18, 0.46)'
 		},
 		backgroundImage: {
 			header_img_xl: "url('/img/header-2xl.jpg')",

@@ -8,12 +8,14 @@
 	import Fade_In_Out from '$lib/components/Fade_In_Out.svelte';
 </script>
 
-<Section id='about_us'>
-	<Container classes="bg-gradient_about_as pt-20 pb-8 2xl:px-20 2xl:pb-10">
+<Section id="about_us">
+	<Container classes="bg-gradient_about_as pt-16 xl:pt-20 pb-10 2xl:px-20 2xl:pb-10">
 		<div class="xl:flex xl:flex-col xl:gap-10 2xl:flex-row 2xl:gap-28">
 			<div class="2xl:w-[60%]">
-				<Heading level="h1" classes="text-6xl text-center mb-10 font-semibold font-source">Про нас</Heading>
-				<div class="flex flex-col gap-5 text-lg">
+				<Heading level="h1" classes="text-6xl text-center mb-10 font-semibold font-source"
+					>Про нас</Heading
+				>
+				<div class="flex flex-col gap-10 text-base">
 					<Fade_In_Out duration={1000} threshold={0.2}>
 						<Paragraph>
 							Наше адвокатське об'єднання <Text classes="font-semibold">"Прецедент права"</Text> існує
@@ -63,7 +65,7 @@
 				</div>
 			</div>
 			<Fade_In_Out duration={1000} threshold={0.2}>
-				<div class="hidden xl:mb-32 xl:flex 2xl:m-0 2xl:w-[40%] xl:justify-center">
+				<div class="hidden xl:mb-32 xl:flex xl:justify-center 2xl:m-0">
 					<Image
 						classes="max-w-[544px] max-h-[762px]"
 						src={'/img/about-as.jpg'}

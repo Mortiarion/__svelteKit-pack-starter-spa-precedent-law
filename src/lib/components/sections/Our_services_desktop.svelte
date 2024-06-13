@@ -2,6 +2,8 @@
 	import Section from '$lib/base-components/Section.svelte';
 	import Container from '$lib/base-components/Container.svelte';
 	import Fade_In_Out from '$lib/components/Fade_In_Out.svelte';
+	import Popap from '$lib/components/Popap.svelte';
+	import { onMount } from 'svelte';
 
 	const categories: string[] = [
 		'Все',
@@ -132,6 +134,24 @@
 	function setActiveCategory(category: string) {
 		activeCategory = category;
 	}
+
+	let popupVisible = false;
+
+	function openPopup() {
+		popupVisible = true;
+	}
+
+	function closePopup() {
+		popupVisible = false;
+	}
+	// onMount(() => {
+	// 	const button = document.getElementById('consultation-button');
+	// 	button.addEventListener('click', openPopup);
+
+	// 	return () => {
+	// 		button.removeEventListener('click', openPopup);
+	// 	};
+	// });
 </script>
 
 <Section id="our_services_desktop" classes="hidden xl:block">
@@ -154,13 +174,16 @@
 				{#each subCategory ? data[subCategory] : data[activeCategory] as item}
 					<li class="filter-list-item p-5">
 						{item}
-						<button
+						<button id="consultation-button" type="button"  on:click={openPopup}
 							class=" whitespace-nowrap rounded bg-location_color px-5 py-2.5 text-xl text-white"
 							>Отримати консультацію</button
 						>
 					</li>
 				{/each}
 			</ul>
+			{#if popupVisible}
+				<Popap on:close={closePopup} />
+			{/if}
 		</div>
 	</Container>
 </Section>

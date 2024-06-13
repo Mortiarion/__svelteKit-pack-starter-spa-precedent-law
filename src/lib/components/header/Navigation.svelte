@@ -2,9 +2,9 @@
 	import { cn } from '$lib/utils/cn';
 	export let classes: string = '';
 	export let items = [
-		{ href: '#about_us', text: 'Про нас' },
-		{ href: '#our_team', text: 'Наші спеціалісти' },
-		{ href: '#our_services_desktop', text: 'Послуги' }
+		{ href: '/#about_us', text: 'Про нас' },
+		{ href: '/#our_team', text: 'Наші спеціалісти' },
+		{ href: '/#our_services_desktop', text: 'Послуги' }
 	];
 </script>
 

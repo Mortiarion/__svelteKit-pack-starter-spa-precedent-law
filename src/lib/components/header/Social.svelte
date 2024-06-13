@@ -184,7 +184,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="/">
+		<a href="https://www.facebook.com/centrjurisprudence">
 			<svg
 				width="36"
 				height="32"

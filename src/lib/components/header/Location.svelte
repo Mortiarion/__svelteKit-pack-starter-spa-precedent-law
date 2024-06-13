@@ -10,9 +10,9 @@
 <div class={cn('', classes)}>
 	<div class="flex items-center gap-3">
 		<Image src={'/img/location.png'} alt={'location-img'} />
-		<Text classes="text-base text-location_color">знаходження</Text>
+		<Text classes="text-sm text-location_color lg:text-base">знаходження</Text>
 	</div>
-	<Paragraph classes="ml-[22px] text-white text-2xl font-semibold 2xl:text-3xl font-source"
+	<Paragraph classes="ml-[22px] text-white font-semibold lg:text-3xl font-source"
 		>м.Одеса вул.Канатна, 68</Paragraph
 	>
 </div>
