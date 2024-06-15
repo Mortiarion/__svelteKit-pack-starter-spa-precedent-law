@@ -220,7 +220,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="/">
+		<a href="https://vm.tiktok.com/ZMrLcTjHX">
 			<svg
 				width="31"
 				height="30"

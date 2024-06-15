@@ -34,23 +34,22 @@
 	});
 </script>
 
-<header class=" bg-cover bg-center bg-no-repeat lg:bg-header_img_xl">
+<header class=" bg-cover bg-center bg-no-repeat lg:bg-header_img_xl bg-header_img">
 	<div
-		class={`container mx-auto bg-header_img bg-cover bg-center bg-no-repeat p-0 px-8 pt-11 bs:max-w-screen-bs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg lg:bg-none xl:max-w-screen-xl xl:px-20 xl:pt-8 2xl:max-w-screen-2xl ${headerPaddingBottom}`}
+		class={`container bs:pb-0 mx-auto p-0 px-8 pt-11 bs:max-w-screen-bs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg lg:bg-none xl:max-w-screen-xl xl:px-20 xl:pt-8 2xl:max-w-screen-2xl ${headerPaddingBottom}`}
 	>
 		<div class="pb-5 flex items-center border-b border-header_line">
 			<Logo classes="mx-auto xl:m-0" />
 			<Navigation
 				classes="bs:hidden xl:flex xl:ml-auto xl:gap-10 xl:text-xl 2xl:text-2xl 2xl:gap-20"
 			/>
-			<Social
-				classes="xl:ml-16 2xl:ml-28 absolute opacity-0 -z-10 xl:opacity-100 xl:static xl:z-10 xl:flex xl:gap-5"
-			/>
+			<Social classes="xl:ml-16 2xl:ml-28 absolute opacity-0 -z-10 xl:opacity-100 xl:static xl:z-10 xl:flex xl:gap-5"/>
 		</div>
 		<!-- <Line classes="mb-5" /> -->
 		<Burger classes="xl:hidden" />
+
 		<div
-			class={`mt-5 mb-8  xl:mb-0 2xl:flex 2xl:flex-col 2xl:gap-5 ${isVisible ? '' : 'hidden'}`}
+			class={`bs:hidden xl:block mt-5 mb-8 2xl:flex 2xl:flex-col 2xl:gap-5 ${isVisible ? '' : 'hidden'}`}
 		>
 			<div class="flex items-center gap-3">
 				<Image src={'/img/location.png'} alt={'location-img'} />
@@ -60,7 +59,8 @@
 				>м.Одеса вул.Канатна, 68</Paragraph
 			>
 		</div>
-		<Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-5 sm:ml-5 xl:hidden" />
+
+		<!-- <Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-5 sm:ml-5 xl:hidden" /> -->
 	</div>
 </header>
 
