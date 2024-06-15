@@ -50,7 +50,7 @@
 					</div>
 					<div class="flex flex-col gap-8">
 						<div class="flex flex-col items-center gap-1 2xl:items-start">
-							<Heading level="h4" classes="font-source text-xl font-bold 2xl:text-3xl"
+							<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
 								>Діана Лісіна</Heading
 							>
 							<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
