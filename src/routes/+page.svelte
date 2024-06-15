@@ -10,7 +10,7 @@
 
 <div class='flex flex-col min-h-screen'>
 	<Header />
-	<main class='flex-auto pt-60'>
+	<main class='flex-auto pt-40 xl:pt-60'>
 		<About_Us />
 		<Our_Team />
 		<Our_Services_Desktop />
