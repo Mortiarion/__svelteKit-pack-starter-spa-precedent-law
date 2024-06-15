@@ -50,7 +50,7 @@
 					</div>
 					<div class="flex flex-col gap-8">
 						<div class="flex flex-col items-center gap-1 2xl:items-start">
-							<Heading level="h4" classes="font-source text-xl font-semibold 2xl:text-3xl"
+							<Heading level="h4" classes="font-source text-xl font-bold 2xl:text-3xl"
 								>Діана Лісіна</Heading
 							>
 							<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
@@ -75,7 +75,7 @@
 								та відданість своїй роботі забезпечують успішний результат кожної справи, якою вона займається.
 							</Paragraph>
 							<Paragraph classes="text-center 2xl:text-left">
-								<Text classes="font-semibold">Чому обрати Діану::</Text>
+								<Text classes="font-semibold">Чому обрати Діану:</Text>
 								Діана Лісіна - це надійний партнер у вирішенні юридичних питань.Її компетентність, відповідальність
 								та прагнення досягати найкращих результатів роблять її незамінною для клієнтів, які шукають
 								надійну правову підтримку.

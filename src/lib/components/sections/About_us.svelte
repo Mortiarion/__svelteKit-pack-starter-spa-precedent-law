@@ -46,7 +46,6 @@
 							спорах. Наша репутація базується на чесності, порядності та відданості справі.
 						</Paragraph>
 					</Fade_In_Out>
-					<Fade_In_Out duration={1000} threshold={0.2}></Fade_In_Out>
 					<Fade_In_Out duration={1000} threshold={0.2}>
 						<Paragraph>
 							<Text classes="font-semibold">Чому обрати нас:</Text>
