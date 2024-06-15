@@ -6,7 +6,7 @@
 
 <div class='flex min-h-screen flex-col'>
 	<Header />
-	<main class='flex-auto pt-40'>
+	<main class='flex-auto pt-60'>
 		<slot />
 	</main>
 	<Footer />
