@@ -31,7 +31,7 @@
 	});
 </script>
 
-<div class={cn('burger px-8', classes)}>
+<div class={cn('burger', classes)}>
 	<button class="absolute left-6 top-20 flex flex-col gap-[6px]" on:click={toggle} class:isOpen>
 		<div class="line"></div>
 		<div class="line"></div>
@@ -39,7 +39,7 @@
 	</button>
 
 	{#if isOpen}
-		<ul class="burger-menu mb-8 flex flex-col gap-3 text-xl text-white">
+		<ul class="burger-menu mt-8 mb-8 flex flex-col gap-3 text-xl text-white">
 			{#each items as item}
 				<li><a on:click={closeBurger} href={item.href}>{item.text}</a></li>
 			{/each}

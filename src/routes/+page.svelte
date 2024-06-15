@@ -8,9 +8,9 @@
 	import Our_Services_Desktop from '$lib/components/sections/Our_services_desktop.svelte';
 </script>
 
-<div>
+<div class='flex flex-col min-h-screen'>
 	<Header />
-	<main>
+	<main class='flex-auto pt-80'>
 		<About_Us />
 		<Our_Team />
 		<Our_Services_Desktop />

@@ -148,7 +148,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="/">
+		<a href="mailto:precedent.prava@gmail.com">
 			<svg
 				width="37"
 				height="28"

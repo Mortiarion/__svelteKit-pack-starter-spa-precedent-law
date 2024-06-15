@@ -6,24 +6,24 @@
 	import Location from '$lib/components/header/Location.svelte';
 	import Social from '$lib/components/header/Social.svelte';
 	import Navigation from '$lib/components/header/Navigation.svelte';
+	import Image from '$lib/base-components/Image.svelte';
+	import Text from '$lib/base-components/Text.svelte';
+	import Paragraph from '$lib/base-components/Paragraph.svelte';
 	import { onMount } from 'svelte';
 
-	let nav: HTMLElement;
-	let lastScrollTop = 0;
+	let isVisible = true;
+	let headerPaddingBottom = 'pb-8';
 
 	onMount(() => {
 		const handleScroll = () => {
-			const scrollTop = window.scrollY;
-
-			if (scrollTop > lastScrollTop) {
-				// Скрол вниз
-				nav.classList.add('scroll-down');
+			const scrollPosition = window.scrollY;
+			if (scrollPosition > 100) {
+				isVisible = false;
+				headerPaddingBottom = 'pb-0';
 			} else {
-				// Скрол вверх
-				nav.classList.remove('scroll-down');
+				isVisible = true;
+				headerPaddingBottom = 'pb-8';
 			}
-
-			lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Avoid negative scroll values
 		};
 
 		window.addEventListener('scroll', handleScroll);
@@ -34,11 +34,11 @@
 	});
 </script>
 
-<header bind:this={nav} class="header lg:bg-header_img_xl bg-no-repeat bg-center bg-cover">
-	<Container
-		classes="p-0 bg-header_img lg:bg-none bg-no-repeat bg-center bg-cover pb-8 pt-11 xl:px-20 xl:pt-8 xl:pb-14"
+<header class=" bg-cover bg-center bg-no-repeat lg:bg-header_img_xl">
+	<div
+		class={`container mx-auto bg-header_img bg-cover bg-center bg-no-repeat p-0 px-8 pt-11 bs:max-w-screen-bs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg lg:bg-none xl:max-w-screen-xl xl:px-20 xl:pt-8 2xl:max-w-screen-2xl ${headerPaddingBottom}`}
 	>
-		<div class="mb-5 flex items-center">
+		<div class="pb-5 flex items-center border-b border-header_line">
 			<Logo classes="mx-auto xl:m-0" />
 			<Navigation
 				classes="bs:hidden xl:flex xl:ml-auto xl:gap-10 xl:text-xl 2xl:text-2xl 2xl:gap-20"
@@ -47,35 +47,37 @@
 				classes="xl:ml-16 2xl:ml-28 absolute opacity-0 -z-10 xl:opacity-100 xl:static xl:z-10 xl:flex xl:gap-5"
 			/>
 		</div>
-		<Line classes="mb-5" />
+		<!-- <Line classes="mb-5" /> -->
 		<Burger classes="xl:hidden" />
-		<Location classes=" px-8 mb-8 xl:mb-0 2xl:flex 2xl:flex-col 2xl:gap-5" />
-		<Social classes="px-8 flex gap-5 sm:ml-5 xl:hidden" />
-	</Container>
+		<div
+			class={`mt-5 mb-8  xl:mb-0 2xl:flex 2xl:flex-col 2xl:gap-5 ${isVisible ? '' : 'hidden'}`}
+		>
+			<div class="flex items-center gap-3">
+				<Image src={'/img/location.png'} alt={'location-img'} />
+				<Text classes="text-sm text-location_color lg:text-base">знаходження</Text>
+			</div>
+			<Paragraph classes="ml-[22px] text-white font-semibold lg:text-3xl font-source"
+				>м.Одеса вул.Канатна, 68</Paragraph
+			>
+		</div>
+		<Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-5 sm:ml-5 xl:hidden" />
+	</div>
 </header>
 
 <style lang="postcss">
-	.header {
-		position: sticky;
+	header {
+		position: fixed;
 		top: 0;
-		width: 100%;
+		right: 0;
+		left: 0;
+		/* min-height: 264px; */
+		/* min-height: 284px; */
 		z-index: 1000;
-		background-color: transparent; /* Базовий фон, який буде прозорим */
-		transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	}
+	
+	.hidden {
+		/* height: 132px; */
+		display: none;
 	}
 
-	.sticky {
-		background-color: white; /* Фон при скролі */
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додайте тінь для кращої видимості */
-	}
-
-	.location {
-		transition: opacity 0.3s ease, transform 0.3s ease;
-		opacity: 0;
-	}
-
-	.scroll-down .location {
-		opacity: 0;
-		transform: translateY(-100%);
-	}
 </style>

@@ -14,6 +14,9 @@
 			<Logo classes="justify-center flex mb-12 lg:hidden" />
 			<Footer_Logo classes="bs:hidden lg:flex lg:justify-center lg:mb-12" />
 		</div>
-		<Link classes="text-white text-sm" href={'/pages/Privacy_Policy'}>Політика конфіденційності</Link>
+		<div class='flex flex-col md:flex-row md:justify-between'>
+			<Link classes="text-white text-sm" href={'/pages/Privacy_Policy'}>Політика конфіденційності</Link>
+			<a class='text-grey text-sm underline' href="https://t.me/anna_ryk">Design by Anna Ryk</a>
+		</div>
 	</Container>
 </Section>
