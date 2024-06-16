@@ -54,13 +54,13 @@
 		>
 			<div class="flex items-center gap-3">
 				<Image src={'/img/location.png'} alt={'location-img'} />
-				<Text classes="text-sm text-location_color lg:text-base">знаходження</Text>
+				<Text classes="text-sm text-location_color lg:text-base">Місцезнаходження</Text>
 			</div>
 			<Paragraph classes="ml-[22px] text-white font-semibold lg:text-3xl font-source"
 				>м.Одеса вул.Канатна, 68</Paragraph
 			>
 		</div>
-		<Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-5 sm:ml-5 xl:hidden" />
+		<Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-2 sm:ml-5 xl:hidden" />
 	{/if}
 </div>
 

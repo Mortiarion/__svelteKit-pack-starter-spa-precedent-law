@@ -41,7 +41,7 @@
 		<div class="pb-5 flex items-center border-b border-header_line">
 			<Logo classes="mx-auto xl:m-0" />
 			<Navigation
-				classes="bs:hidden xl:flex xl:ml-auto xl:gap-10 xl:text-xl 2xl:text-2xl 2xl:gap-20"
+				classes="bs:hidden xl:flex xl:ml-auto xl:gap-8 xl:text-base 2xl:text-2xl 2xl:gap-20"
 			/>
 			<Social classes="xl:ml-16 2xl:ml-28 absolute opacity-0 -z-10 xl:opacity-100 xl:static xl:z-10 xl:flex xl:gap-5"/>
 		</div>
@@ -53,7 +53,7 @@
 		>
 			<div class="flex items-center gap-3">
 				<Image src={'/img/location.png'} alt={'location-img'} />
-				<Text classes="text-sm text-location_color lg:text-base">знаходження</Text>
+				<Text classes="text-sm text-location_color lg:text-base">Місцезнаходження</Text>
 			</div>
 			<Paragraph classes="ml-[22px] text-white font-semibold lg:text-3xl font-source"
 				>м.Одеса вул.Канатна, 68</Paragraph
