@@ -19,7 +19,7 @@
 </script>
 
 {#if popupVisible}
-	<div class="fixed inset-0 z-50 flex items-end bg-popap">
+	<div class="fixed inset-0 z-[1000] flex items-end bg-popap">
 		<div class="relative flex w-full flex-col items-center gap-8 bg-white p-8 pb-32 pt-16 bs:pb-16">
 			<Heading level="h4" classes="text-2xl max-w-[460px] text-center">
 				Оберіть зручний для вас спосіб, щоб зв'язатися з нашими фахівцями
