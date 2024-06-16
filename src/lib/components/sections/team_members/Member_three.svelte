@@ -51,18 +51,18 @@
 					<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
 				</div>
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Професійний досвід:</Text>
+					<Text classes="font-semibold">Професійний досвід:</Text> <br class="hidden 2xl:block" />
 					Дмитро Попроцький веде адвокатську практику з 2008 року. За цей час він здобув значний досвід
 					у різних галузях права, зокрема у господарському, цивільному та сімейному праві.
 				</Paragraph>
 				{#if showAll}
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Спеціалізація:</Text>
+						<Text classes="font-semibold">Спеціалізація:</Text> <br class="hidden 2xl:block" />
 						Дмитро спеціалізується на господарському та цивільному судових процесах, допомагаючи клієнтам
 						ефективно вирішувати правові питання, пов'язані з бізнесом та особистими справами.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Чому обрати Дмитра:</Text>
+						<Text classes="font-semibold">Чому обрати Дмитра:</Text> <br class="hidden 2xl:block" />
 						Завдяки багаторічному досвіду та глибоким знанням, Дмитро Попроцький пропонує своїм клієнтам
 						професійний підхід та надійну правову підтримку. Його компетентність і відповідальність гарантують
 						успішне вирішення навіть найскладніших юридичних питань.

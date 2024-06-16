@@ -51,25 +51,25 @@
 					<Text classes="text-location_color 2xl:text-xl">Старший консультант</Text>
 				</div>
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Професійний досвід:</Text>
+					<Text classes="font-semibold">Професійний досвід:</Text> <br class="hidden 2xl:block" />
 					Лілія Братим розпочала свою юридичну кар’єру у 2004 році у відділі економіки слідчого відділу
 					Міністерства внутрішніх справ України. За час своєї кар’єри вона обіймала різні посади, включаючи
 					старшого слідчого та роботу в міграційній службі України.
 				</Paragraph>
 				{#if showAll}
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Спеціалізація:</Text>
+						<Text classes="font-semibold">Спеціалізація:</Text> <br class="hidden 2xl:block" />
 						Лілія спеціалізується на міжнародному праві, зовнішньоекономічній діяльності, міграційному
 						праві, консульських і дипломатичних зносинах. Вона також має великий досвід у сфері бізнесу
 						та електронної комерції, включаючи крипто право та ІТ право.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Досвід:</Text>
+						<Text classes="font-semibold">Досвід:</Text> <br class="hidden 2xl:block" />
 						З 20-річним стажем у юридичній практиці, Лілія втілює юридичну майстерність та міжнародний
 						досвід. Вона не тільки розуміє закони, але й передбачає їх вплив на ваш бізнес та життя.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Чому обрати Лілію?</Text>
+						<Text classes="font-semibold">Чому обрати Лілію?</Text> <br class="hidden 2xl:block" />
 						Лілія володіє кількома мовами, включаючи англійську, німецьку, турецьку та грузинську, і
 						є стратегічним партнером у сфері міжнародного права, економіки та бізнесу. Вона має глибокі
 						знання та практичний досвід у Європейському Союзі, країнах Кавказу та Азії, зокрема у бізнесі

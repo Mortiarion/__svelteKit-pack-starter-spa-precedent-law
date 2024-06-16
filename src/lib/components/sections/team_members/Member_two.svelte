@@ -6,7 +6,7 @@
 	import Paragraph from '$lib/base-components/Paragraph.svelte';
 	import Button from '$lib/base-components/Button.svelte';
 	import Fade_In_Out from '$lib/components/Fade_In_Out.svelte';
-    import Line from '$lib/base-components/Line.svelte';
+	import Line from '$lib/base-components/Line.svelte';
 
 	let showAll = false;
 	let headingRef: HTMLElement;
@@ -51,7 +51,7 @@
 					<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
 				</div>
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Професійний досвід:</Text>
+					<Text classes="font-semibold">Професійний досвід:</Text> <br class="hidden 2xl:block" />
 					Віктор Бардук веде адвокатську практику з 2012 року. До цього він тривалий час працював у правоохоронних
 					органах України. Його кар'єра включає посади старшого оперативного уповноваженого в органах
 					карного розшуку в складі Міністерства внутрішніх справ України, старшого слідчого та старшого
@@ -59,17 +59,18 @@
 				</Paragraph>
 				{#if showAll}
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Спеціалізація:</Text>
+						<Text classes="font-semibold">Спеціалізація:</Text> <br class="hidden 2xl:block" />
 						Віктор спеціалізується на кримінальному процесі. Завдяки його глибоким знанням та досвіду,
 						багато його клієнтів отримали виправдовувальні вироки.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Досвід:</Text>
+						<Text classes="font-semibold">Досвід:</Text> <br class="hidden 2xl:block" />
 						Загальний стаж юридичної роботи Віктора складає понад 25 років, що свідчить про його високу
 						компетентність та надійність як адвоката.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
 						<Text classes="font-semibold">Чому обрати Віктора:</Text>
+						<br class="hidden 2xl:block" />
 						З таким адвокатом ви під надійним захистом. Віктор Бардук забезпечує професійний підхід та
 						індивідуальну увагу до кожного клієнта, що гарантує успішний результат справи.
 					</Paragraph>

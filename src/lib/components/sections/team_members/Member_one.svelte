@@ -48,25 +48,25 @@
 				<Text classes="text-location_color 2xl:text-xl">Адвокат</Text>
 			</div>
 			<Paragraph classes="text-center 2xl:text-left">
-				<Text classes="font-semibold">Професійний досвід:</Text>
+				<Text classes="font-semibold">Професійний досвід:</Text> <br class="hidden 2xl:block" />
 				Діана Лісіна веде адвокатську практику з початку 2022 року. Незважаючи на відносно короткий термін
 				професійної діяльності, вона вже встигла зарекомендувати себе як висококваліфікований фахівець.
 			</Paragraph>
 			{#if showAll}
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Спеціалізація:</Text>
+					<Text classes="font-semibold">Спеціалізація:</Text> <br class="hidden 2xl:block" />
 					Діана спеціалізується на корпоративних спорах та договірному праві,а також на судових процесах
 					з адміністративного права. Її експертні знання та досвід допомогли врятувати не одне підприємство
 					від правових труднощів.
 				</Paragraph>
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Особисті якості:</Text>
+					<Text classes="font-semibold">Особисті якості:</Text> <br class="hidden 2xl:block" />
 					Нехай Вас не бентежить вік та привабливість Діани. Вона є відмінним спеціалістом, яка відзначається
 					виконавчістю, чесністю та порядністю. Її професіоналізм, уважність до деталей та відданість
 					своїй роботі забезпечують успішний результат кожної справи, якою вона займається.
 				</Paragraph>
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Чому обрати Діану:</Text>
+					<Text classes="font-semibold">Чому обрати Діану:</Text> <br class="hidden 2xl:block" />
 					Діана Лісіна - це надійний партнер у вирішенні юридичних питань.Її компетентність, відповідальність
 					та прагнення досягати найкращих результатів роблять її незамінною для клієнтів, які шукають
 					надійну правову підтримку.

@@ -51,26 +51,26 @@
 					<Text classes="text-location_color 2xl:text-xl">Помічник адвоката</Text>
 				</div>
 				<Paragraph classes="text-center 2xl:text-left">
-					<Text classes="font-semibold">Освіта:</Text>
+					<Text classes="font-semibold">Освіта:</Text> <br class="hidden 2xl:block" />
 					Олена Васильєва закінчила Національний університет «Одеська юридична академія» з відзнакою,
 					отримавши кваліфікацію магістра права. Її академічні успіхи підтверджують її глибокі знання
 					та відданість юридичній професії.
 				</Paragraph>
 				{#if showAll}
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Професійні якості:</Text>
+						<Text classes="font-semibold">Професійні якості:</Text> <br class="hidden 2xl:block" />
 						Олена - надзвичайно грамотний фахівець, не по роках зрілий. Її компетентність і здатність
 						швидко та якісно виконувати завдання викликають захоплення. Олена завжди виконує доручення
 						не просто швидко, а дуже швидко та дуже грамотно. Немає такого юридичного питання, яке їй
 						не під силу.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Особисті якості:</Text>
+						<Text classes="font-semibold">Особисті якості:</Text> <br class="hidden 2xl:block" />
 						Олена відзначається сумлінністю, ввічливістю, порядністю та надійністю. Вона є незамінним
 						членом команди, на якого можна покластися в будь-якій ситуації.
 					</Paragraph>
 					<Paragraph classes="text-center 2xl:text-left">
-						<Text classes="font-semibold">Чому обрати Олену:</Text>
+						<Text classes="font-semibold">Чому обрати Олену:</Text> <br class="hidden 2xl:block" />
 						Незважаючи на молодий вік та те, що вона ще не адвокат, рівень знань Олени вражає. Вона демонструє
 						високий професіоналізм та відповідальність у своїй роботі, що робить її важливим ресурсом
 						для будь-якої юридичної фірми. Олена Васильєва - це гарантія якісної та ефективної правової
