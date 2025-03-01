@@ -70,7 +70,6 @@
 		top: 0;
 		right: 0;
 		left: 0;
-		/* min-height: 264px; */
 		/* min-height: 284px; */
 		z-index: 1000;
 	}

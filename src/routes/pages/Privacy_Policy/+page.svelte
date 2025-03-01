@@ -89,7 +89,7 @@
 				Якщо у вас виникли питання або пропозиції щодо нашої політики конфіденційності, будь ласка,
 				зв'яжіться з нами за наступними контактними даними:
 			</Paragraph>
-			<a class="underline" href="tel:+380730343344">+38(073)034-33-44</a>
+			<a class="underline" href="tel:+380930343344">+380 (93) 034 33 44</a>
 			<a class="underline" href="mailto:precedent.prava@gmail.com">precedent.prava@gmail.com</a>
 		</div>
 	</Container>
