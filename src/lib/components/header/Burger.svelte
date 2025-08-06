@@ -44,21 +44,22 @@
 	</button>
 
 	{#if isOpen}
-		<ul class="burger-menu mt-8 mb-8 flex flex-col gap-3 text-xl text-white">
+		<ul class="flex flex-col gap-3 mt-8 mb-8 text-xl text-white burger-menu">
 			{#each items as item}
 				<li><a on:click={closeBurger} href={item.href}>{item.text}</a></li>
 			{/each}
 		</ul>
 		<div
-			class='mt-5 mb-8  xl:mb-0 2xl:flex 2xl:flex-col 2xl:gap-5'
+			class='mt-5 mb-8 xl:mb-0 2xl:flex 2xl:flex-col 2xl:gap-5'
 		>
 			<div class="flex items-center gap-3">
 				<Image src={'/img/location.png'} alt={'location-img'} />
 				<Text classes="text-sm text-location_color lg:text-base">Місцезнаходження</Text>
 			</div>
-			<Paragraph classes="ml-[22px] text-white font-semibold lg:text-3xl font-source"
-				>м.Одеса вул.Канатна, 68</Paragraph
-			>
+			
+			<a href="https://maps.app.goo.gl/xUyEcNoXyVjXmXeK9?g_st=ipc" class="ml-[22px] text-white font-semibold lg:text-3xl font-source">
+				м.Одеса вул.Мала Арнаутська, 30
+			</a>
 		</div>
 		<Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-2 sm:ml-5 xl:hidden" />
 	{/if}
