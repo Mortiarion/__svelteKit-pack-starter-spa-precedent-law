@@ -34,11 +34,11 @@
 	});
 </script>
 
-<header class=" bg-cover bg-center bg-no-repeat lg:bg-header_img_xl bg-header_img">
+<header class="bg-center bg-no-repeat bg-cover lg:bg-header_img_xl bg-header_img">
 	<div
 		class={`container bs:pb-0 mx-auto p-0 px-8 pt-11 bs:max-w-screen-bs sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg lg:bg-none xl:max-w-screen-xl xl:px-20 xl:pt-8 2xl:max-w-screen-2xl ${headerPaddingBottom}`}
 	>
-		<div class="pb-5 flex items-center border-b border-header_line">
+		<div class="flex items-center pb-5 border-b border-header_line">
 			<Logo classes="mx-auto xl:m-0" />
 			<Navigation
 				classes="bs:hidden xl:flex xl:ml-auto xl:gap-8 xl:text-base 2xl:text-2xl 2xl:gap-20"
@@ -55,9 +55,11 @@
 				<Image src={'/img/location.png'} alt={'location-img'} />
 				<Text classes="text-sm text-location_color lg:text-base">Місцезнаходження</Text>
 			</div>
-			<Paragraph classes="ml-[22px] text-white font-semibold lg:text-3xl font-source"
-				>м.Одеса вул.Канатна, 68</Paragraph
-			>
+			
+			<a href="https://maps.app.goo.gl/xUyEcNoXyVjXmXeK9?g_st=ipc" class="ml-[22px] text-white font-semibold lg:text-3xl font-source">
+				м.Одеса вул.Мала Арнаутська, 30
+			</a>
+			
 		</div>
 
 		<!-- <Social classes="flex mt-8 pb-5 bs:justify-center md:justify-start md:ml-10 gap-5 sm:ml-5 xl:hidden" /> -->
