@@ -57,7 +57,7 @@
 			</div>
 			
 			<a href="https://maps.app.goo.gl/xUyEcNoXyVjXmXeK9?g_st=ipc" class="ml-[22px] text-white font-semibold lg:text-3xl font-source">
-				м.Одеса вул.Мала Арнаутська, 30
+				м. Одеса, вул. Мала Арнаутська, 30
 			</a>
 			
 		</div>
