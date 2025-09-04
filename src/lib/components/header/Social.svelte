@@ -48,7 +48,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="https://vm.tiktok.com/ZMrLcTjHX">
+		<a href="https://www.tiktok.com/@precedent.prava?_t=ZM-8zRVFDgzTsb&_r=1" title="Ми в тікток" aria-label="Ми в тікток">
 			<TiktokIcon />
 		</a>
 	</li>
